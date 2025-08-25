@@ -1,0 +1,12 @@
+Checks:
+  - clang-analyzer-*
+  - modernize-*
+  - readability-*
+  - performance-*
+  - bugprone-*
+  - -modernize-use-trailing-return-type
+  - -readability-identifier-length
+  - -readability-braces-around-statements
+WarningsAsErrors: ''
+HeaderFilterRegex: '.*'
+FormatStyle: file
